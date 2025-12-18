@@ -41,11 +41,16 @@ body.dark {
     #1e293b,
     #312e81
   );
+  
+  --card: #0f1724;
+  --text: #e5e7eb;
+  --accent: #8b5cf6;
 }
 
 body.dark h1 {
-  color: white;
+  color: var(--text);
 }
+
 
 
 canvas {
